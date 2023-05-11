@@ -1,0 +1,38 @@
+1)$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        trabajo prac.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2)$git add trabajo prac.txt
+
+3)$git status
+on branch main
+
+no commits yet
+
+changes to be committed:
+  (use "git rm --cached <file>..."to unstage)
+        new file:  trabajo prac.txt
+
+4)$ git commit -m "estoy seguro de este commit 2"
+[main ec5abbf] estoy seguro de este commit 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 trabajo,prac.txt
+
+5)$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 16.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Martin34-de/repositorio.git
+   9e0ea2e..ec5abbf  main -> main
+branch 'main' set up to track 'origin/main'.
+
